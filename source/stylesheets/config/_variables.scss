@@ -2,9 +2,11 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
-$base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Montserrat", "sans-serif";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+// Define fonts for body and headers
+$body-font: 'Open Sans', sans-serif;
+$headers-font: 'Open Sans', sans-serif;
+
 
 // Local fonts (uncomment following lines)
 // @font-face {
@@ -24,16 +26,16 @@ $base-height: 1.4;
  * Colors
  * ------------------------------------- */
 // Scheme
-$red: #EE5F5B;
-$blue: #469AE0;
-$yellow: #FDB631;
+$white: #FFFFFF;
+$red: #C3172C;
+$blue: #4A90E2;
+$dark-blue: #074e81;
+$yellow: #F9D141;
 $orange: #E67E22;
-$green: #32B796;
-$purple: #6452BD;
-
-// Gray scale
-$gray-darker:  lighten(#000, 13.5%); // #222
-$gray-dark:    lighten(#000, 20%);   // #333
-$gray:         lighten(#000, 33.5%); // #555
-$gray-light:   lighten(#000, 46.7%); // #777
-$gray-lighter: lighten(#000, 93.5%); // #eee
+$green: #629528;
+$gray: #0E0000;
+$light-gray: #F4F4F4;
+$dark-gray: #393939;
+$cream: #DBBB9F;
+$cristal: #26B3BF;
+$purple: #D44FED;
