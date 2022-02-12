@@ -1,1 +1,166 @@
-magnetisme.html.erb
+<div class="banner" id="magnetisme">
+  <h1 class="main-title"> LE MAGNETISME ET LES FERRITES</h1>
+</div>
+<div class="section-magnetisme">
+  <div class="sub-section">
+    <h2>1. PROPRIÉTÉS D'UNE FERRITE ISOLÉE</h2>
+    <hr class="sep separateur-xl">
+    <p>
+      Les ferrites sont des isolants qui sont utilisés comme aimants dans de nombreux domaines, en particulier pour la fermeture de portes de placard. Elles se présentent le plus souvent sous forme cylindrique ou parallélépipédique. <br>
+      Il est important de souligner que les baguettes ne répondent pas lorsque l’on a une ferrite dans la main. Ceci conforte l’hypothèse de Y. Rocard sur l’effet du champ magnétique sur la réponse du sourcier. <br>
+      Le magnétomètre indique que le champ magnétique diminue lorsque l’on se trouve sur une veine d’eau, alors qu’il augmente lorsque l’on se trouve au-dessus d’une cavité.
+    </p>
+    <h3>1.1.  Caractéristiques de la ferrite</h3>
+    <hr class="sep separateur-l">
+    <p>
+      La ferrite (5 x 7 x 32mm) comporte 6 faces:
+      <ul>
+        <li>
+          2 faces pures identifiées avec la boussole Nord (rouge) et Sud (bleu),
+        </li>
+        <li>
+          4 faces mixtes Nord et Sud dont 2 courtes et 2 longues.
+        </li>
+      </ul>
+      L’axe magnétique de la ferrite est perpendiculaire aux faces pures N et S. Les 6 faces attirent le fer.
+    </p>
+    <div class="image">
+      <%= image_tag 'mag-fig-1.WebP' %>
+    </div>
+    <h3>1.2.  Détection de la ferrite</h3>
+    <hr class="sep separateur-l">
+    <p>
+      Les baguettes permettent de mettre en évidence dans la plupart des cas trois axes orthorhombiques orientés: le premier est l’axe magnétique, les deux autres sont à angle droit dans le plan perpendiculaire. <br>
+      Les directions prises par les baguettes dépendent de la position de l’expérimentateur par rapport à la ferrite.
+    </p>
+    <h4>1.2.1.  La ferrite repose sur la face Sud (bleu)</h4>
+    <hr class="sep separateur-xs">
+    <p>
+      Si elle est orientée dans le sens ab, et si l’on avance vers une longue face mixte, les baguettes s’ouvrent au-dessus de la ferrite lorsque l’on coupe l’axe magnétique dirigé vers le haut. (Figure A). Elles se croisent si l’on s’avance en dessous de l’aimant. <br>
+      Si l’on se place à droite de l’aimant, on constate que les baguettes tournent vers la gauche dans le sens a-b (vert). Si l’on tourne de 90° on constate que les baguettes tournent vers la droite dans le sens cd (orange). <br>
+      Lorsque l’aimant subit une rotation de 180°, autour de l’axe magnétique on constate que le signal relatif à l’axe magnétique reste le même, par contre les signaux sur les deux autres axes, sont inversés (Figure B).
+    </p>
+    <div class="image">
+      <%= image_tag 'mag-fig-2.WebP' %>
+    </div>
+    <h4>1.2.2.  La ferrite repose sur la face Nord (rouge)</h4>
+    <hr class="sep separateur-xs">
+    <p>
+      Si l’on fait pivoter de 180° la ferrite autour de l’axe parallèle à la surface mixte la plus longue, on constate que les baguettes se croisent lorsque l’on coupe l’axe magnétique et s’ouvrent en dessous. Sur les autres axes on retrouve les signaux de la Figure A. <br>
+      Lorsque la ferrite subit une rotation de 180° autour de l’axe magnétique, on constate que le signal relatif à l’axe magnétique reste le même, par contre les signaux sur les deux autres axes sont inversés.
+    </p>
+    <div class="image">
+      <%= image_tag 'mag-fig-3.WebP' %>
+    </div>
+    <h4>1.2.3.  La ferrite repose sur une face mixte</h4>
+    <hr class="sep separateur-xs">
+    <p>
+      Il n’apparait pas de signal vertical lorsque l’aimant est sur la grande face mixte. L’axe magnétique est horizontal, dirigé de la face S à la face N, il est détectable à 2,4m alors que l’autre axe l’est à 9,6m. <br>
+      Quand la ferrite est sur sa petite face mixte, il apparait le signal vertical de 9,6m mais pas d’axe perpendiculaire à la grande face mixte comme dans le cas précédent. L’axe magnétique qui est horizontal garde sa limite de détection égale à 2,4m.
+    </p>
+    <div class="image">
+        <%= image_tag 'mag-fig-4.WebP' %>
+    </div>
+    <h4>1.2.4.  Influence de la température sur la détection</h4>
+    <hr class="sep separateur-xs">
+    <p>
+      Les distances de détection D diminuent très sensiblement avec la température.
+    </p>
+    <div class="image">
+      <%= image_tag 'mag-fig-5.WebP' %>
+    </div>
+    <p>
+      Il est ainsi possible d’utiliser la valeur de D longitudinal d’une ferrite, après étalonnage, pour évaluer la température à un endroit donné à condition de disposer d’une surface suffisante.
+    </p>
+    <h2>2.  INTERACTION ENTRE LES FERRITES</h2>
+    <hr class="sep separateur-xl">
+    <p>
+      Il y a lieu de distinguer deux cas: le premier concerne celui où les ferrites sont en contact et le second où elles ne le sont pas.
+    </p>
+    <h3>2.1.  Ferrites en contact</h3>
+    <hr class="sep separateur-l">
+    <p>
+      <strong>Association de deux ferrites:</strong> <br>
+      On compare les valeurs des distances accessibles sur les trois axes pour une ferrite puis pour deux, associées par les faces pures puis par les faces mixtes. L’axe noir correspond à l’axe magnétique, perpendiculaire aux faces N et S, l’axe vert est celui  des faces longues et l’axe orange lui est perpendiculaire. <br>
+      Le mode d’association des deux ferrites joue sur le résultat final: si l’on considère par exemple la face sud de la ferrite, on a vu que l’orientation de ses signaux horizontaux s’inversaient après une rotation sur le sol de 180°. <br>
+      Pour analyser l’association de deux ferrites identiques il est impératif que les ferrites isolées donnent les mêmes signaux. Dans ce cas, on constate que leur combinaison conserve les mêmes orientations avec des distances D multipliées par deux. <br>
+      Dans le cas contraire l’association ne donnera aucun signal quelle que soit la face examinée.
+    </p>
+    <div class="image">
+      <%= image_tag 'mag-fig-6.WebP' %>
+    </div>
+    <p>
+      <strong>Association de quatre ferrites:</strong> <br>
+      Comme dans le cas de deux ferrites, le signal de l’association apparait lorsqu’elles se comportent séparément de la même manière vis-à-vis des baguettes dans une direction donnée. <br>
+      Lorsque les quatre ferrites sont correctement associées par leurs faces N ou S, les signaux observés sont égaux au double de ceux résultant de l’association de deux ferrites, à la même température. Il est ainsi possible de détecter le signal horizontal de quatre ferrites (5 x 7 x 32mm) associées par leurs petites faces mixtes à une distance de 35m avec une bonne précision, ou le signal au 8ème étage d’un immeuble lorsqu’elles sont dressées verticalement.
+    </p>
+    <h3>2.2.  Ferrites identiques sans contact</h3>
+    <hr class="sep separateur-l">
+    <p>
+      La détection des signaux implique que les ferrites se trouvent au même niveau   horizontal posées sur leur grande face mixte, les deux faces Nord et Sud se faisant face. <br>
+      Il n’y a pas de signal lorsque des faces de même nature (N/N) ou (S/S) sont face à face. Il en est de même lorsqu’une face mixte se trouve en face d’une face N ou S -. <br>
+      Les baguettes se dirigent de la face nord du premier aimant vers la face sud du second  à condition que la distance entre les deux aimants soit inférieure à une distance Dm. <br>
+      Il faut noter ici la différence avec les solutions où les baguettes vont en sens inverse entre les deux verres.
+    </p>
+    <div class="image">
+      <%= image_tag 'mag-fig-7.WebP' %>
+    </div>
+    <p>
+      Lorsque les deux ferrites sont exactement en face, on constate que lors d’un déplacement latéral, les baguettes se déplacent à mi-distance, vers les ferrites, Z étant égal à zéro. <br>
+      La valeur de Dm dépend des surfaces parallèles actives S1 et S2 en présence. Il suffit de déplacer les deux ferrites perpendiculairement à l’axe qui les sépare pour fixer le rapport des surfaces. Dans chaque cas, Z=0.
+    </p>
+    <div class="image">
+      <%= image_tag 'mag-fig-8.WebP' %>
+    </div>
+    <p>
+      Si l’on met en face d’une ferrite l’association de deux, on constate que Z n’est plus nul et que le changement d’orientation des baguettes se fait du côté de la ferrite unique, alors que les surfaces se faisant front sont égales. Il en résulte que la valeur de Z est directement reliée à celles du champ fourni de part et d’autre et que les surfaces mises en jeu ne constituent pas le facteur essentiel.
+    </p>
+    <div class="image">
+      <%= image_tag 'mag-fig-9.WebP' %>
+    </div>
+    <h2>3.  ROLE INHIBITEUR DE LA FERRITE, DE L’EAU ET D’UNE PILE</h2>
+    <hr class="sep separateur-xl">
+    <h3>3.1.  Cas de la ferrite</h3>
+    <hr class="sep separateur-l">
+    <p>
+      J’ai constaté que la présence d’une ferrite dans la main supprime tout signal des baguettes quelle que soit la cible recherchée. Par contre si elle est présente sur une de mes baguettes métalliques, elle n’a pas d’action. <br>
+      Lorsqu’une ferrite est placée sur ses faces mixtes devant un objet à détecter comme un métal ou un verre d’eau, les baguettes restent inertes. Par contre, posée sur ses faces pures, elle perd son caractère inhibiteur, les baguettes donnant le signal du seul objet. <br>
+      Inversement tout objet dépourvu de charges tribo-électriques placé devant une ferrite supprime ses signaux.
+    </p>
+    <h3>3.2.  Cas de l'eau</h3>
+    <hr class="sep separateur-l">
+    <p>
+      Les baguettes sont inactives lorsqu’un verre d’eau se trouve devant ou sur une ferrite que l’on veut détecter. Elles le sont également lorsque l’opérateur coupe l’axe entre l’eau et cette ferrite.
+    </p>
+    <div class="image">
+      <%= image_tag 'mag-fig-10.WebP' %>
+    </div>
+    <h3>3.3.  Compétition eau vs ferrite</h3>
+    <hr class="sep separateur-l">
+    <p>
+      Lorsque l’on place deux verres respectivement remplis d’eau au 1/4 et au 1/2 à une distance de 2,40m le changement d’orientation a lieu à 0,60m du verre le moins rempli (1). <br>
+      Quand on place deux ferrites identiques à la même distance, le changement d’orientation a lieu à 1,20m (2). <br>
+      Si l’on place les deux ferrites entre les verres, on constate que c’est le signal des ferrites qui fixe le changement à 1,20m (3). <br>
+      Si l’on fait l’inverse, c’est l’eau qui l’impose à 0,60m (4). <br>
+      Si une seule ferrite (5) ou l’une des deux (6) est à l’extérieur de l’espace entre les deux verres, les baguettes restent immobiles entre les deux verres.
+    </p>
+    <div class="image">
+      <%= image_tag 'mag-fig-11.WebP' %>
+    </div>
+    <h3>3.4.  Compétition pile vs ferrite</h3>
+    <hr class="sep separateur-l">
+    <p>
+      Si l’on place une face pure ou mixte de la ferrite devant un pôle de la pile, les baguettes sont inactives comme dans le cas de l’eau. Elles suivent le sens de la pile au niveau de l’autre pôle.
+    </p>
+
+    <h2>4.  APPLICATION PLANIMETRIQUE</h2>
+    <hr class="sep separateur-xl">
+    <p>
+      Il est possible d’utiliser les signaux linéaires des aimants pour des applications planimétriques. <br>
+      Si l’on veut par exemple réaliser avec deux ferrites un carré de 16m il suffit d’adopter la disposition B’. On dispose de deux axes à angle droit sur le plan horizontal. <br>
+      Une fois ces axes matérialisés, on porte à une extrémité les mêmes ferrites. S’appuyant sur le tracé précédent on peut dessiner le troisième coté du carré et relier ensuite les deux extrémités libres. <br>
+      Quatre ferrites de 3,2cm mises bout à bout par leur petites faces mixtes permettent de réaliser un carré de 40m à 20°C.
+    </p>
+  </div>
+</div>
+
