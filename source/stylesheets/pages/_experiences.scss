@@ -1,1 +1,78 @@
-_experiences.scss
+.banner {
+  background-size: cover;
+  padding-top: 70px;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.section-methode,
+.section-eau,
+.section-electricite,
+.section-magnetisme,
+.section-cristaux,
+.section-metaux,
+.section-ondes,
+.section-bio {
+  background-color: $light-gray;
+}
+.sub-section {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 80px 15px;
+  text-align: justify;
+  overflow: hidden;
+}
+img {
+  margin: 10px 0px;
+  border-radius: 3px;
+  box-shadow:
+    0 0.7px 2.9px rgba(0, 0, 0, 0.023),
+    0 1.7px 7.4px rgba(0, 0, 0, 0.029),
+    0 3.5px 15.2px rgba(0, 0, 0, 0.035),
+    0 7.3px 30.7px rgba(0, 0, 0, 0.043),
+    0 20px 80px rgba(0, 0, 0, 0.07);
+}
+.image {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  overflow: hidden;
+}
+.double img {
+  margin-right: .5rem;
+}
+// *******************************  La METHODE  **********************************
+#methode {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('methode.WebP');
+}
+// *******************************  L'EAU  **********************************
+#eau {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('eau.WebP');
+}
+   // *******************************  ELECTRICITE  **************************
+#electricite {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 20%), image-url('electricite.WebP');
+}
+ // *******************************  ELECTRICITE  **************************
+#ondes {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('ondes.WebP');
+}
+  // *******************************  MAGNETISME  **************************
+#magnetisme {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('magnetisme.WebP');
+ }
+  // *******************************  CRISTAUX  **************************
+#cristaux {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 20%), image-url('cristaux.WebP');
+}
+  // *******************************  CRISTAUX  **************************
+#metaux {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('metaux.WebP');
+}
+  // *******************************  BIO VEGETALE  **************************
+#biologie {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('biologie.WebP');
+}
+

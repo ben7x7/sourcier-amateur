@@ -1,1 +1,14 @@
-_auteur.scss
+#auteur {
+  padding: 80px 50px;
+  background-color: $light-gray;
+}
+.auteur-section {
+  max-width: 950px;
+  margin: auto;
+  display: flex;
+  background-color: white;
+  padding: 30px 30px;
+}
+.auteur-body {
+  padding-left: 30px;
+}

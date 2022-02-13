@@ -1,1 +1,27 @@
-_mentions.scss
+.container-legales{
+  color: $light-gray;
+  background-color: $dark-gray;
+}
+.section-legales {
+  max-width: 900px;
+  padding: 150px 0 50px 0;
+  margin: 0 auto;
+}
+.body-legales {
+  padding: 50px 10px;
+}
+.btn-legales {
+  padding: 10px 20px;
+  border: solid 2px $orange;
+  border-radius: 5px;
+  color: $light-gray;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+.btn-legales:hover {
+  background-color: transparent;
+  color: $orange;
+  text-decoration: none;
+}
+
