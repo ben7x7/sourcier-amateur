@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/lewagon/middleman-deploy.git
+  revision: 4f97af2034d6e7548a172d89a2a37fc263c6c987
+  specs:
+    middleman-deploy (2.0.0.pre.alpha)
+      middleman-core (>= 3.2)
+      net-sftp
+      ptools
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -52,6 +61,7 @@ GEM
       cucumber-messages (~> 18.0, >= 18.0.0)
     cucumber-messages (18.0.0)
     cucumber-tag-expressions (4.1.0)
+    date (3.3.3)
     diff-lcs (1.5.0)
     dotenv (2.8.1)
     erubis (2.7.0)
@@ -113,10 +123,6 @@ GEM
       toml
       uglifier (~> 3.0)
       webrick
-    middleman-deploy (1.0.0)
-      middleman-core (>= 3.2)
-      net-sftp
-      ptools
     middleman-metaman (0.1.14)
       middleman-core (>= 4.2.1)
     mime-types (3.4.1)
@@ -125,6 +131,11 @@ GEM
     mini_mime (1.1.2)
     minitest (5.17.0)
     multi_test (1.1.0)
+    net-ftp (0.2.0)
+      net-protocol
+      time
+    net-protocol (0.2.1)
+      timeout
     net-sftp (4.0.0)
       net-ssh (>= 5.0.0, < 8.0.0)
     net-ssh (7.0.1)
@@ -191,6 +202,9 @@ GEM
     temple (0.10.0)
     thor (1.2.1)
     tilt (2.0.11)
+    time (0.2.1)
+      date
+    timeout (0.3.2)
     toml (0.3.0)
       parslet (>= 1.8.0, < 3.0.0)
     tzinfo (2.0.6)
@@ -209,12 +223,13 @@ PLATFORMS
 DEPENDENCIES
   capybara
   cucumber
-  execjs (~> 2.7)
+  execjs
   font-awesome-sass (~> 5.13.0)
   middleman
   middleman-autoprefixer
-  middleman-deploy
+  middleman-deploy!
   middleman-metaman
+  net-ftp
   rake
   rspec
   rubocop

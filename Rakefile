@@ -35,7 +35,6 @@ end
 task default: default_tasks
 
 # Ensure builds are skipped when publishing to the gh-pages branch
-ENV["COMMIT_MESSAGE_SUFFIX"] = "[skip ci]"
 
 def run_linter(command)
   output = `#{command}`
