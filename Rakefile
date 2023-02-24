@@ -1,5 +1,5 @@
 require 'rainbow'
-
+require 'middleman-gh-pages'
 
 linters = [
   {
@@ -34,8 +34,6 @@ end
 
 task default: default_tasks
 
-# Ensure builds are skipped when publishing to the gh-pages branch
-
 def run_linter(command)
   output = `#{command}`
   if output.empty?
@@ -44,3 +42,6 @@ def run_linter(command)
     system command
   end
 end
+
+# Ensure builds are skipped when publishing to the gh-pages branch
+ENV["COMMIT_MESSAGE_SUFFIX"] = "[skip ci]"
