@@ -1,0 +1,121 @@
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: $marine;
+  color: #393939;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 100;
+  padding: 0px 0px !important;
+}
+#brand {
+  font-weight: bold;
+  color: white;
+  margin-left: 2rem;
+}
+.navbar-collapse.collapse {
+  margin-right: 2rem;
+}
+a.nav-link {
+  letter-spacing: 1.1;
+  color: white;
+  padding-left: 2rem !important;
+  font-weight: bold;
+}
+a#navbarDropdown.dropdown-toggle {
+  color: white;
+}
+a.nav-link.dropdown-item {
+  color: $marine;
+  padding: 0px 0px !important;
+  text-decoration: none;
+  text-align: center;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a.nav-link.dropdown-item:hover {
+  color: white;
+  font-weight: 700;
+  width: 100%;
+}
+a.nav-link.dropdown-item:hover:nth-child(1) {
+  background-color: $orange;
+}
+a.nav-link.dropdown-item:hover:nth-child(2) {
+  background-color: $blue;
+}
+a.nav-link.dropdown-item:hover:nth-child(3) {
+  background-color: $red;
+}
+a.nav-link.dropdown-item:hover:nth-child(4) {
+  background-color: $purple;
+}
+a.nav-link.dropdown-item:hover:nth-child(5) {
+  background-color: $cream;
+}
+a.nav-link.dropdown-item:hover:nth-child(6) {
+  background-color: $yellow;
+}
+a.nav-link.dropdown-item:hover:nth-child(7) {
+  background-color: $cristal;
+}
+a.nav-link.dropdown-item:hover:nth-child(8) {
+  background-color: $green;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 70px;
+  right: 1rem;
+  width: 300px;
+}
+.dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 22px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}
+
+
+@media screen and (max-width: 992px){
+  .navbar-nav {
+    background-color: $white;
+  }
+  .fa-bars {
+    color: $white;
+    margin-right: 2rem;
+  }
+  a.nav-link {
+    width: 100%;
+    padding-left: 0px;
+    text-align: center;
+    color: $marine;
+  }
+  a.nav-link:hover {
+    color: $white;
+    background-color: $marine;
+  }
+  .dropdown-menu {
+    width: 100%;
+  }
+  a#navbarDropdown.dropdown-toggle {
+    color: $marine;
+  }
+  a#navbarDropdown.dropdown-toggle:hover {
+    color: $white;
+  }
+  .navbar-collapse.collapse {
+    padding-right: 0;
+    margin-right: 0 !important;
+    background-color: white;
+  }
+}

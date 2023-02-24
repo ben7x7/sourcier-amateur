@@ -1,0 +1,152 @@
+.home-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  padding-top: 70px;
+  position: relative;
+  color: white;
+  background-color: $marine;
+}
+
+.home-top > h1 {
+  font-size: 32px !important;
+}
+
+.home-down {
+  background-color: $marine;
+  padding-bottom: 60px;
+  height: 50vh;
+}
+
+.header-text {
+  padding: 20px 15px;
+  color: white;
+}
+
+.experiences {
+  max-width: 650px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+a.logo-links:hover {
+  text-decoration: none;
+}
+
+.experience-card {
+  display: block;
+  width: 150px;
+  margin: 5px 5px;
+  border-radius: 5px;
+}
+
+.experience-icon {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // margin-bottom: 5px;
+}
+.experience-icon img {
+  box-shadow: none;
+}
+
+.bg-methode {
+  background-color: $orange;
+}
+.bg-eau {
+  background-color: $blue;
+}
+.bg-electricite {
+  background-color: $red;
+}
+.bg-magnetisme {
+  background-color: $cream;
+}
+.bg-ondes {
+  background-color: $purple;
+}
+.bg-cristaux {
+  background-color: $cristal;
+}
+.bg-conducteurs {
+  background-color: $yellow;
+}
+.bg-biologie {
+  background-color: $green;
+}
+
+.experience-text {
+  text-align: center;
+}
+
+.expe {
+  color: white;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+
+.banner-sciences {
+  height: 300px;
+  overflow: hidden;
+}
+
+.main-title {
+  margin-bottom: 50px;
+}
+
+#info {
+  max-width: 850px;
+  text-align: justify;
+  margin: 50px auto;
+  padding: 50px 30px;
+  background-color: white;
+}
+
+.signature {
+  padding: 40px 100px 0 0;
+}
+
+.methode,
+.auteur {
+  width: 50%;
+  padding: 50px 15px;
+}
+
+#contact {
+  background-color: $dark-gray;
+  background-image: url('https://res.cloudinary.com/bessiere/image/upload/v1595606967/Background/map-image.png');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.contact-header {
+  padding-top: 100px;
+  color: $light-gray;
+}
+
+.contact-body {
+  color: $light-gray;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#mail-contact {
+  color: $light-gray;
+}
+// Specific CSS for your home-page

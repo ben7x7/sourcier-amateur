@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 50px !important;
+  font-weight: 900 !important;
+}
+h2 {
+  padding-top: 1rem !important;
+  font-size: 32px !important;
+  font-weight: 700 !important;
+}
+h3 {
+  font-size: 28px !important;
+  font-weight: 600 !important;
+}
+h4 {
+  font-size: 24px !important;
+  font-weight: 400 !important;
+}
+h5 {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+p {
+  font-size: 18px !important;
+}
+.section {
+  min-height: 100vh;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.experience {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 80px 15px;
+  overflow: hidden;
+}
+.experience p {
+  text-align: justify;
+}
+.title {
+  text-align: left;
+  margin: 2rem 0rem 1rem 0rem;
+}
+hr.sep-h2 {
+  height: 15px;
+  background: rgb(246,174,45);
+  background: -moz-linear-gradient(90deg, rgba(246,174,45,1) 0%, rgba(248,247,247,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(246,174,45,1) 0%, rgba(248,247,247,1) 100%);
+  background: linear-gradient(90deg, rgba(246,174,45,1) 0%, rgba(248,247,247,1) 100%);
+  margin: 0px 0px 40px 0px !important;
+  border: none !important;
+}
+hr.sep-h3 {
+  height: 8px;
+  background: rgb(46,134,171);
+  background: -moz-linear-gradient(90deg, rgba(46,134,171,1) 50%, rgba(248,247,247,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(46,134,171,1) 50%, rgba(248,247,247,1) 100%);
+  background: linear-gradient(90deg, rgba(46,134,171,1) 50%, rgba(248,247,247,1) 100%);
+  margin: 0px 0px 30px 0px !important;
+  border: none !important;
+}
+hr.sep-h4 {
+  height: 4px;
+  background: rgb(86,86,87);
+  background: -moz-linear-gradient(90deg, rgba(86,86,87,1) 0%, rgba(248,247,247,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(86,86,87,1) 0%, rgba(248,247,247,1) 100%);
+  background: linear-gradient(90deg, rgba(86,86,87,1) 0%, rgba(248,247,247,1) 100%);
+  margin: 0px 0px 30px 0px !important;
+  border: none !important;
+}
+hr.sep-h5 {
+  height: 2px;
+  background: rgb(15,15,15);
+  background: -moz-linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(248,247,247,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(248,247,247,1) 100%);
+  background: linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(248,247,247,1) 100%);
+  margin: 0px 0px 30px 0px !important;
+  border: none !important;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0
+}
+.dbl-image {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0
+}
+.dbl-image img {
+  margin: 0 0.75rem;
+}
+
+
+
+.banner {
+  background-size: cover;
+  padding-top: 70px;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#methode {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), url('https://res.cloudinary.com/bessiere/image/upload/v1666950234/sourcier/methode.webp');
+}
+#eau {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), url('https://res.cloudinary.com/bessiere/image/upload/v1666950202/sourcier/eau.webp');
+}
+#electricite {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 20%), url('https://res.cloudinary.com/bessiere/image/upload/v1666950216/sourcier/electricite.webp');
+}
+#ondes {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), url('https://res.cloudinary.com/bessiere/image/upload/v1666950231/sourcier/ondes.webp');
+}
+#magnetisme {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), url('https://res.cloudinary.com/bessiere/image/upload/v1666950219/sourcier/magnetisme.webp');
+}
+#cristaux {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 20%), url('https://res.cloudinary.com/bessiere/image/upload/v1666950226/sourcier/cristaux.webp');
+}
+#conducteur {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), url('https://res.cloudinary.com/bessiere/image/upload/v1666950223/sourcier/conducteurs.webp');
+}
+#biologie {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), url('https://res.cloudinary.com/bessiere/image/upload/v1666950230/sourcier/biologie.webp');
+}
+
+img {
+  border-radius: 3px;
+  box-shadow:
+  0 0.7px 2.9px rgba(0, 0, 0, 0.023),
+  0 1.7px 7.4px rgba(0, 0, 0, 0.029),
+  0 3.5px 15.2px rgba(0, 0, 0, 0.035),
+  0 7.3px 30.7px rgba(0, 0, 0, 0.043),
+  0 20px 80px rgba(0, 0, 0, 0.07);
+}
+
